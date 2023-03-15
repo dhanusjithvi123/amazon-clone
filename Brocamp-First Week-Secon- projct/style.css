@@ -1,0 +1,413 @@
+* {
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.contener {
+    position: relative;
+}
+
+header {
+
+    width: 100%;
+    background-color: #1a242e;
+    height: 65px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    margin-top: 18px;
+}
+
+.menu {
+    position: absolute;
+    width: 29%;
+    padding-top: 1px;
+    flex-direction: row;
+    color: rgb(132, 112, 112);
+    list-style: none;
+    display: flex;
+    font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif !important;
+    justify-content: space-evenly;
+    opacity: 12.8;
+    padding-left: 9%;
+}
+
+.bg:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#one {
+    margin-left: 1095px;
+    padding-right: 16px;
+    padding-top: 3px;
+    background-color: #297ba3;
+    border-radius: 3px;
+    color: white;
+    font-size: 17px;
+    opacity: 0.8;
+}
+
+#one:hover {
+    background-color: #1489ff;
+    cursor: pointer;
+    opacity: 12.8;
+    color: white;
+}
+
+.icons {
+    opacity: 0.8;
+    color: rgb(132, 112, 112);
+    padding-left: 24px;
+}
+
+.icons:hover {
+    opacity: 0.8;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#logo {
+    top: 10%;
+    left: 2%;
+    position: absolute;
+    height: 48px;
+    width: 7%;
+    background: transparent;
+}
+
+/* END */
+
+.sing-up {
+    height: 555px;
+    background-image: url(/Images/Banner\ 1.jpg);
+    background-size: cover;
+}
+
+.heading {
+    margin-top: 4%;
+    width: 33%;
+    margin-left: 2%;
+}
+
+.main-heading {
+    padding-top: 55%;
+    font-size: 2.8rem;
+    line-height: 3.1rem;
+    color: #ffffff;
+    font-family: "Amazon Ember";
+}
+
+.subhead {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: #ffffff;
+    padding-top: 3%;
+}
+
+#two {
+    background-color: #297ba3;
+    display: inline;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    opacity: 0.8;
+    padding-right: 37px;
+    padding-top: 8px;
+    margin-top: 2px;
+    border-radius: 2%;
+}
+
+#two:hover {
+    background-color: #1489ff;
+    cursor: pointer;
+    opacity: 12.8;
+    color: white;
+}
+
+/* END */
+.rent-now {
+    height: 550px;
+    background-image: url(/Images/Banner2.jpg);
+    background-size: cover;
+}
+
+.heading-two {
+    width: 40%;
+    margin-left: 60%;
+    height: 550px;
+}
+
+.main-heading-two {
+    padding-top: 16%;
+    font-size: 2.8rem;
+    line-height: 3.1rem;
+    color: #ffffff;
+    font-family: "Amazon Ember";
+}
+
+.subhead-two {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: #ffffff;
+    padding-top: 3%;
+}
+
+#three {
+    background-color: #297ba3;
+    display: inline;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    opacity: 0.8;
+    padding-right: 45px;
+    padding-top: 9px;
+    margin-top: 26px;
+    padding-left: 4%;
+    border-radius: 2%;
+    margin-left: 13%;
+}
+
+#three:hover {
+    background-color: #1489ff;
+    cursor: pointer;
+    opacity: 12.8;
+    color: white;
+}
+
+/* END */
+
+
+.cards-section {
+    background-color: #e4e5ef;
+    height: 777px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+
+.texts {
+    background-color: white;
+    width: 650px
+}
+
+.heading-three {
+    width: 83%;
+    margin-left: 11%;
+    height: 550px;
+}
+
+.main-heading-three {
+    padding-top: 16%;
+    font-size: 2.8rem;
+    line-height: 3.1rem;
+    color: #000000;
+    font-family: "Amazon Ember";
+}
+
+.subhead-three {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: #040404;
+    padding-top: 3%;
+}
+
+/* #four{
+        background-color: #297ba3;
+        display: inline;
+        text-align: center;
+        color: white;
+        font-size: 17px;
+        opacity: 0.8;
+        padding-right: 45px;
+        padding-top: 9px;
+        margin-top: 26px;
+        padding-left: 4%;
+        margin-left: 13%;
+    }
+    #four:hover{
+        background-color: #1489ff;
+        cursor: pointer;
+        opacity: 12.8;
+        color: white;
+    } */
+
+
+.card {
+    background-color: #f3f4f8;
+    transform: scale(1);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-auto-rows: max-content
+}
+
+.card img {
+    width: 267px;
+}
+
+.bright {
+    transform: scale(0.9);
+}
+
+.bright:hover {
+    cursor: pointer;
+    transform: scale(1);
+    box-shadow: 6px 6px 3px black;
+}
+
+/* END */
+
+.tvstick {
+    height: 500px;
+    background-image: url(/Images/banner3.jpg);
+    background-size: cover;
+}
+
+
+.heading-four {
+    width: 40%;
+    margin-left: 55%;
+    height: 550px;
+}
+
+.main-heading-four {
+    padding-top: 16%;
+    font-size: 2.8rem;
+    line-height: 3.1rem;
+    color: #f6f3f3;
+    font-family: "Amazon Ember";
+}
+
+.subhead-four {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: #fbf1f1;
+    padding-top: 3%;
+}
+
+#four {
+    background-color: #297ba3;
+    display: inline;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    opacity: 0.8;
+    padding-right: 45px;
+    padding-top: 9px;
+    margin-top: 26px;
+    padding-left: 4%;
+    margin-left: 13%;
+}
+
+#four:hover {
+    background-color: #1489ff;
+    cursor: pointer;
+    opacity: 12.8;
+    color: white;
+}
+
+
+
+/* END */
+
+
+
+
+.famly-frinds {
+    height: 550px;
+    background-image: url(/Images/Banner\ \ 4.jpg);
+    background-size: cover;
+}
+
+.heading-five {
+    width: 40%;
+    margin-left: 5%;
+    height: 470px;
+}
+
+.main-heading-five {
+    padding-top: 16%;
+    font-size: 2.8rem;
+    line-height: 3.1rem;
+    color: #f6f3f3;
+    font-family: "Amazon Ember";
+}
+
+.subhead-five {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: #fbf1f1;
+    padding-top: 3%;
+}
+
+#five {
+    background-color: #297ba3;
+    display: inline;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    opacity: 0.8;
+    padding-right: 45px;
+    padding-top: 9px;
+    margin-top: 26px;
+    padding-left: 4%;
+    margin-left: 13%;
+}
+
+#five:hover {
+    background-color: #1489ff;
+    cursor: pointer;
+    opacity: 12.8;
+    color: white;
+}
+
+
+/* END */
+
+.fotter {
+    background-color: #222222;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#im {
+    width: 100px;
+    object-fit: contain;
+    padding-left: 46%;
+}
+
+.policy {
+    display: flex;
+    text-decoration: none;
+    margin-left: 36%;
+}
+
+.link {
+    opacity: 0.8;
+    color: #e4e5ef;
+    text-decoration: none;
+    padding-left: 2%;
+}
+
+.link:hover {
+    opacity: 12.8;
+    color: #e4e5ef;
+    cursor: pointer;
+}
+
+.copy {
+    color: gray;
+    padding-left: 568px;
+}
